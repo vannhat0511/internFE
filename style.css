@@ -5,7 +5,7 @@
     text-decoration: none;
     list-style: none;
     scroll-behavior: smooth;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 html::-webkit-scrollbar-track {
@@ -589,6 +589,17 @@ nav .content .links li label:hover {
     font-size: 18px;
 }
 
+.service-row {
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    padding: 20px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.service-row:hover {
+    border-color: #e74c3c;
+}
+
 .packages .card-body button {
     width: 130px;
     height: 30px;
@@ -607,6 +618,7 @@ nav .content .links li label:hover {
     background: #1c0a51;
     color: #f4f5fb;
 }
+
 
 @media (max-width:800px) {
     .packages .card-content {
@@ -903,6 +915,14 @@ form textarea {
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
+
+}
+
+.socail-links i:hover {
+    color: #ff0000;
+    /* Màu bạn muốn khi di chuột vào */
+    transition: color 0.3s ease;
+    /* Thêm hiệu ứng chuyển đổi màu */
 }
 
 #row2 h3 {
@@ -962,5 +982,17 @@ form textarea {
     cursor: pointer;
 }
 
+.info {
+    display: flex;
+    margin-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.img11 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
 
 /* Footer End */
